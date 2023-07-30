@@ -26,4 +26,7 @@ class Fan:
     # Mutator methods (setters)
     def set_speed(self, speed):
         self.__speed = speed
+
+    def set_on(self, on):
+        self.__on = on
        
