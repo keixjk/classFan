@@ -35,4 +35,10 @@ class Fan:
 
     def set_color(self, color):
         self.__color = color
+
+class TestFan:
+    def main(self):
+        # Create two Fan object
+        fan1 = Fan(Fan.FAST, 10, 'yellow', True)
+        fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
        
