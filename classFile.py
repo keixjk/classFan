@@ -23,4 +23,7 @@ class Fan:
     def get_color(self):
         return self.__color
     
+    # Mutator methods (setters)
+    def set_speed(self, speed):
+        self.__speed = speed
        
