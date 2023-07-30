@@ -41,4 +41,11 @@ class TestFan:
         # Create two Fan object
         fan1 = Fan(Fan.FAST, 10, 'yellow', True)
         fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
+        
+        # Display fan1 properties
+        print("Fan 1 Properties:")
+        print("Speed:", fan1.get_speed())
+        print("Radius:", fan1.get_radius())
+        print("Color:", fan1.get_color())
+        print("Is On:", fan1.is_on())
        
