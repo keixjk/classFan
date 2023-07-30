@@ -13,4 +13,7 @@ class Fan:
     # Access methods (getters)
     def get_speed(self):
         return self.__speed
+    
+    def is_on(self):
+        return self.__on
        
