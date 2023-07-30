@@ -16,4 +16,7 @@ class Fan:
     
     def is_on(self):
         return self.__on
+
+    def get_radius(self):
+        return self.__radius
        
