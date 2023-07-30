@@ -55,4 +55,9 @@ class TestFan:
         print("Radius:", fan2.get_radius())
         print("Color:", fan2.get_color())
         print("Is On:", fan2.is_on())
+
+# Create a TestFan object and run the test program
+if __name__ == "__main__":
+    test_fan = TestFan()
+    test_fan.main()
        
