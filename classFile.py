@@ -48,4 +48,11 @@ class TestFan:
         print("Radius:", fan1.get_radius())
         print("Color:", fan1.get_color())
         print("Is On:", fan1.is_on())
+
+        # Display fan2 properties
+        print("\nFan 2 Properties:")
+        print("Speed:", fan2.get_speed())
+        print("Radius:", fan2.get_radius())
+        print("Color:", fan2.get_color())
+        print("Is On:", fan2.is_on())
        
